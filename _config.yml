@@ -1,0 +1,61 @@
+# Site settings
+title: Angela Williams Design | Dental Jekyll Theme
+description: "A responsive Jekyll theme for dental clinics."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: img/gallery/large/logo.png
+
+# Hero
+hero:
+    hero_img: hero2.png
+    hero_title: Angela Williams Design
+    hero_description: Interior Design and Landscaping
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: (626) 644 6667
+    email: angelawilliamsdesign@gmail.com
+    address: 380 S. Lake Avenue Pasadena, CA 91101
+
+# Opening hours
+monday_friday: 9:00am – 6:00pm
+saturday: 12:00am - 6:00pm
+sunday: closed
+
+# Testimonials
+testimonials:
+    testimonials_img: dining_room.jpg
+
+# Map
+map:
+    zoom: 13
+    address: 380 S. Lake Avenue Pasadena CA 91101
+    address_details: img/gallery/thumb/thumb1.jpg
+
+# Social settings
+facebook: https://www.facebook.com/gelly.gel.77
+instagram: http://instagram.com
+yelp: http://www.yelp.com/biz/angela-williams-design-pasadena
+
+# Footer
+copyright: © 2016 Angela Williams Design - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics:
+google_verification:

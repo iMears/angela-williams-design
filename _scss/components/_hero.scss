@@ -1,0 +1,46 @@
+/* HERO
+-------------------------------------------------*/
+.hero {
+    position: relative;
+    margin-top: 48px;
+    .container-fluid {
+        position: relative;
+    }
+    .icon {
+        margin-right: 10px;
+        color: $colorPrimary;
+        vertical-align: top;
+    }
+    h3 {
+        span {
+            color: white;
+            font-size: 15px
+        }
+    }
+}
+
+.hero-content {
+    padding: $space 0;
+
+    @include breakpoint(small) {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .hero-content-inner {
+        padding: 0 30px 30px;
+        background: white;
+        @include breakpoint(small) {
+            width: 34%;
+        }
+    }
+    h1 {
+        margin: 0 0 5px;
+        color: $black;
+    }
+    p {
+        font-size: 1.125rem;
+        color: #ddd
+    }
+}

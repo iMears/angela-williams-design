@@ -2,10 +2,16 @@
 -------------------------------------------------*/
 .about {
     margin: 120px 0;
+    line-height: 32px;
 
-
+    img {
+        margin-top: 20px;
+    }
     @extend %space;
     .media {
         margin-bottom: $space;
+    }
+    @media (max-width: 500px) {
+        margin: 60px 0;
     }
 }

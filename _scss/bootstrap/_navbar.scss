@@ -176,6 +176,10 @@
     display: block;
   }
 
+  @media (max-width: 500px) {
+    font-size: 12px;
+  }
+
   @media (min-width: $grid-float-breakpoint) {
     .navbar > .container &,
     .navbar > .container-fluid & {

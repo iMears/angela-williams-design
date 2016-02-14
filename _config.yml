@@ -1,7 +1,7 @@
 # Site settings
 title: Angela Williams Design | Dental Jekyll Theme
 description: "A responsive Jekyll theme for dental clinics."
-baseurl: "angela_williams_design" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: img/gallery/large/logo.png
 

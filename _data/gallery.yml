@@ -1,33 +1,33 @@
-- image_thumb: t1.jpg
-  image_large: t1lg.jpg
+- image_thumb: t1.png
+  image_large: t1lg.png
   image_alt: picture of room
 
-- image_thumb: t2.jpg
-  image_large: t2lg.jpg
+- image_thumb: t2.png
+  image_large: t2lg.png
   image_alt: picture of room
 
-- image_thumb: t3.jpg
-  image_large: t3lg.jpg
+- image_thumb: t3.png
+  image_large: t3lg.png
   image_alt: picture of room
 
-- image_thumb: t4.jpg
-  image_large: t4lg.jpg
-  image_alt: picture of room
-
-
-- image_thumb: t5.jpg
-  image_large: t5lg.jpg
+- image_thumb: t4.png
+  image_large: t4lg.png
   image_alt: picture of room
 
 
-- image_thumb: t6.jpg
-  image_large: t6lg.jpg
+- image_thumb: t5.png
+  image_large: t5lg.png
   image_alt: picture of room
 
-- image_thumb: t7.jpg
-  image_large: t7lg.jpg
+
+- image_thumb: t6.png
+  image_large: t6lg.png
   image_alt: picture of room
 
-- image_thumb: t8.jpg
-  image_large: t8lg.jpg
+- image_thumb: t7.png
+  image_large: t7lg.png
+  image_alt: picture of room
+
+- image_thumb: t8.png
+  image_large: t8lg.png
   image_alt: picture of room

@@ -7,6 +7,7 @@
 }
 
 .gallery-item {
+    margin-bottom: 20px;
     position: relative;
     float: left;
     @include breakpoint(lsmall) {

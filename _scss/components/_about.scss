@@ -3,10 +3,6 @@
 .about {
     margin: 120px 0;
 
-    img {
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-    }
 
     @extend %space;
     .media {

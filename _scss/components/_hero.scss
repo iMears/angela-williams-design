@@ -1,6 +1,7 @@
 /* HERO
 -------------------------------------------------*/
 .hero {
+    color: grey;
     position: relative;
     margin-top: 48px;
     .container-fluid {
@@ -13,7 +14,7 @@
     }
     h3 {
         span {
-            color: white;
+            color: grey;
             font-size: 15px
         }
     }

@@ -1,21 +1,20 @@
 /* GALLERY
 -------------------------------------------------*/
 .gallery {
-    .fa {
-        color: white;
-    }
-    img {
-        margin-bottom: 35px;
-    }
     padding: 120px 0;
     @extend %clearfix;
     @extend %space;
 }
 
 .gallery-item {
-
     position: relative;
     float: left;
+    .expandable-box-bottom {
+        margin-bottom: 35px;
+    }
+    .fa-3x {
+        color: white;
+    }
     @include breakpoint(lsmall) {
         width: 50%;
     }

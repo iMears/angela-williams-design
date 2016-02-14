@@ -3,7 +3,7 @@
 .treatments {
     padding: 120px 0;
     @extend %space;
-    background: $colorBg;
+    background: $colorPrimary;
     .row {
         @include breakpoint(small) {
             display: flex;

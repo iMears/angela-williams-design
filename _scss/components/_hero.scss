@@ -22,6 +22,7 @@
 
 .hero-content {
     padding: $space 0;
+    margin-bottom: -20px;
 
     @include breakpoint(small) {
         position: absolute;

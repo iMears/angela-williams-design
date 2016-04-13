@@ -1,6 +1,5 @@
-# Angela Williams Design - Jekyll Theme
+### Angela Williams Design
 
-A single page Jekyll theme for dental clinics. It's easily customizable and responsive. It comes with svg icons, google map and a working contact form. Docs can be found [here](http://obaez.com/Angela Williams Design-docs/).
+#### Built with Jekyll
 
-Here is a [live Demo](http://obaez.com/Angela Williams Design/)
-
+Click [here](http://angelawilliamsdesign.com) to view the site.

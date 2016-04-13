@@ -1,7 +1,7 @@
 # Site settings
 title: Angela Williams Design
 description: Interior Design and Landscaping
-baseurl: /angela-williams-design # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: https://imears.github.io # the name of your domain
 logo_url: img/gallery/large/logo.png
 

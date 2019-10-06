@@ -19,10 +19,10 @@ f    <div class="hero-content">
     <div class="container-fluid">
 
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><i class="icon fa fa-phone"></i><span> (626) 644-6667</span></h3>
+            <h3><i class="icon fa fa-phone"></i><a href="tel:626-644-6667"> (626) 644-6667</a></h3>
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg><span> AngelaWilliamsDesign@gmail.com</span></h3>
             <br>
-            <form action="//formspree.io/angelawilliamsdesign@gmail.com" method="POST">
+            <form action="https://formspree.io/angelawilliamsdesign@gmail.com" method="POST">
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Name" required>
                 </div>
@@ -78,7 +78,7 @@ f    <div class="hero-content">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
         <h3>Location</h3>
             <p>
-                {{ site.contact.address }}
+                <a target="_blank" style="text-decoration: inherit; color: inherit;" href="https://www.google.com/maps/place/1220+N+Arroyo+Blvd,+Pasadena,+CA+91103/@34.1680951,-118.1685118,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c3acbf12ca97:0x1f12b81a29335dc9!8m2!3d34.1680907!4d-118.1663231">{{ site.contact.address }}</a>
             </p>
     </div>
 </div>
@@ -142,24 +142,3 @@ f    <div class="hero-content">
     </div>
 </div>
 <!-- End Testimonials -->
-
-<!-- Start Gallery -->
-<div id="gallery" class="gallery">
-
-    {% for images in site.data.gallery %}
-        <a href="/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
-            <div class="expandable-box-top">
-                <img src="/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
-            </div>
-            <div class="expandable-box-bottom">
-                <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-        </a>
-    {% endfor %}
-
-</div>
-<!-- End Gallery -->
-
-<!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
-<!-- End Map -->

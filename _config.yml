@@ -18,7 +18,7 @@ api_token: # Enter API token here
 contact:
     phone: (626) 644 6667
     email: angelaWilliamsDesign@gmail.com
-    address: 380 S. Lake Avenue Pasadena, CA 91101
+    address: 1220 N. Arroyo Blvd Pasadena, CA 91103
 
 # Opening hours
 monday_friday: 9:00am – 6:00pm
@@ -32,16 +32,16 @@ testimonials:
 # Map
 map:
     zoom: 13
-    address: 380 S. Lake Avenue Pasadena CA 91101
+    address: 1220 N. Arroyo Blvd Pasadena, CA 91103
     address_details: img/gallery/thumb/thumb1.jpg
 
 # Social settings
 facebook: https://www.facebook.com/gelly.gel.77
-instagram: http://instagram.com
+instagram: https://instagram.com/Arroyo_Gel
 yelp: http://www.yelp.com/biz/angela-williams-design-pasadena
 
 # Footer
-copyright: © 2016 Angela Williams Design - All rights reserved
+copyright: 
 
 # Build settings
 markdown: kramdown
